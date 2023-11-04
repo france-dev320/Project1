@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon " type="image/x-icon" href="img.kuyakorea/">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <!--Header section-->
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold display-1  text-uppercase" href="#">Kuya Korea</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold " href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold " href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item fw-bold text-success"
+                    href="https://www.kuyakorea.com/products/gochu-half">Kpop-Chicken</a></li>
+                <li><a class="dropdown-item fw-bold text-success"
+                    href="https://www.kuyakorea.com/products/chicken-combo-wings">Chicken Combo</a></li>
+                <li><a class="dropdown-item fw-bold text-success"
+                    href="https://www.kuyakorea.com/products/kimchi-fried-noodles">Noodles</a></li>
+                <li><a class="dropdown-item fw-bold text-success" href="https://www.kuyakorea.com/products/bulgogi">Rice
+                    Bowls</a></li>
+                <li><a class="dropdown-item fw-bold text-success"
+                    href="https://www.kuyakorea.com/products/chickin-sandwich">Sandwhich</a></li>
+                <li><a class="dropdown-item fw-bold text-success"
+                    href="https://www.kuyakorea.com/products/black-sesame-mayo-1">Extra & Dips</a></li>
+                <li><a class="dropdown-item fw-bold text-success"
+                    href="https://www.kuyakorea.com/products/dark-chocolate">Milktea</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">More</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold " href="about.html">About</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+  </header>
+<!--End of Header section-->
+
+<!--Main section-->
+
+<main>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.kuyakorea.com/cdn/shop/files/ZAP_BANNER_1512x.jpg?v=1636980574" class="d-block w-100"
+          alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-uppercase text-dark fw-bold">Kuya Korea!</h2>
+          <p class="text-light fw-bold">Super Delicious and Sulit sa Sarap!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0610/3485/6677/files/David_FoodHug_for_Franchise__Tab_1_1024x1024.png?v=1687768014"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-uppercase text-dark fw-bold">Kuya Korea!</h2>
+          <p>Super Delicious and Sulit sa Sarap!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img.kuyakorea/kuyakorea.1.jpg" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-uppercase text-dark fw-bold">Kuya Korea!</h2>
+          <p>Super Delicious and Sulit sa Sarap!</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</main>
+
+
+
+<!--End of Main section-->
+
+<!--Article-->
+
+
+<article>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-white text-center text-uppercase fw-bold mt-5" data-aos="zoom-in"> Join our Kuya Korea Family!
+          <hr>
+        </h1>
+
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12-sm">
+        <p class="text-center text-secondary mt-3" data-aos="zoom-in">We're a celebrity owned restaurant.
+          Take advantage of Kuya Korea's robust brand recognition and customer base,
+          bringing happiness and indulgence to thousands of K-foodies!</p>
+
+        <div class="row">
+          <div class="col-12-sm text-center" data-aos="zoom-in">
+            <button type="button" class="btn btn-primary text-uppercase fw-bold p-2">Franchise Now!</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <h3 class="text-white text-center mt-3 p-5 fw-bold text-uppercase" data-aos="zoom-in-down">Customer Reviews
+      </h3>
+
+      <div class="row">
+        <div class="col-12-sm ">
+          <p class="text-center text-light" data-aos="zoom-in">Korean chicken + bibimbap (overloaded with
+            toppings!) <br> So affordable and so good! second time here and finally tried their jajangmyem  (japchae for my friend). must try!
+          so full with their large servings worth the prices  </p>
+          <p class="text-center fw-bold text-secondary" data-aos="zoom-in"> - Andrian Mabuti</p>
+        </div>
+
+
+        <div class="col-12-sm ">
+          <p class="text-center text-light" data-aos="zoom-in">So Goood! I really think everything is super yummy<br>
+            and such a good price as well, packing/branding is also nice! Tysm. I just popped  the chicken in the air fryer 
+            real quick to get it crispy hehe so yum!!
+          </p>
+          <p class="text-center fw-bold text-secondary" data-aos="zoom-in"> - Yohan Li</p>
+        </div>
+
+        <div class="col-12-sm ">
+          <small>
+            <p class="text-center text-light ms-3" data-aos="zoom-in">Yes Will surely come back soon. thank you so much <br>
+              all the foods are yummy.. We hope to meet Mr. David Licauco soon hihi.. My Fav actor. <br>
+              thanks and God bless you!
+            </p>
+          </small>
+          <p class="text-center fw-bold text-secondary" data-aos="zoom-in"> - Gohan Mazu</p>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+    <div class="col-sm-6 mt-5 ps-5 pb-5 pe-5  pt-2" data-aos="zoom-in-left">
+
+      <img
+        src="https://cdn.shopify.com/s/files/1/0610/3485/6677/files/David_FoodHug_for_Franchise__Tab_1_1024x1024.png?v=1687768014"
+        class="img-thumbnail " alt="david_picture">
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+  </div>
+
+
+</article>
+
+<!--End of Article-->
+
+
+
+
+<!--Section-->
+
+<section>
+
+  <div class="container-fluid d-none d-sm-block ">
+    <div class="row">
+      <div class="col-sm-6 ">
+        <div class="card david-img " style="width: 18rem;" data-aos="zoom-in">
+          <img
+            src="https://scontent.fcrk1-3.fna.fbcdn.net/v/t39.30808-6/259676734_117595427398452_8820404123524510800_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHSy4UnqfRILi6jpg9FXZpbWjyVO0SoyxFaPJU7RKjLEaZKlNYy9_fpMieAx5huMzr76d_gEscRcJZVnkmlRGM9&_nc_ohc=KoFPfZP_8qoAX8BhF2z&_nc_ht=scontent.fcrk1-3.fna&oh=00_AfDAYSNdDbXhEFUmSa8pxG-kcF2Og24HeTB6Hc_G-79Owg&oe=654A398E"
+            class="card-img-top" alt="Kuya_korea">
+
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <h4 class="text-uppercase david_text text-light text-center fw-bold" data-aos="zoom-out"> Kuya Korea  <hr>  </h4>
+        <p class="text-light text-center bg-dark" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1500">Korean for dinner? We gotchu! 👌🏼Here’s our recomendation for your order from Kuya Korea,
+          Weekend feasts are sorted thanks to Kuya Korea's SUPER 🙌🏼 sulit, sarap, and satisfying Korean fried chicken!! 🏆
+        </p>
+        <p class="text-light text-center bg-dark" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1500">
+          Our store open and Located at U.P Town Center monday to Friday from 10:00 am until 10:00 pm visit now! 🙌🏼
+        </p>
+
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+  <div class="container-fluid ">
+    <div class="row">
+      <div class="col-sm-12 text-light fw-bold text-center text-uppercase" data-aos="zoom-in">
+        <h1>Best Seller!</h1>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-sm-3 mt-3">
+
+        <div class="card" style="width: 18rem;" data-aos="fade-up">
+          <img
+            src="https://scontent.fcrk1-4.fna.fbcdn.net/v/t39.30808-6/329541488_1237186347214599_1592968382837311216_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF0XL5Mp5kUQetdBK2s8TfOOHk8-YQpKeo4eTz5hCkp6gW5tCkSIIJdgWJC2hJL6r_mPs_AUYVmRgwaOp4X8Tzq&_nc_ohc=UHzhyA-Dhu8AX8MzOeU&_nc_oc=AQkFQxm-57s8XGLONZ0kMI_HNFjh-KK0PFr_c5FSzrDIHO-bCWWN7SgTBKl1UYdPCBw&_nc_ht=scontent.fcrk1-4.fna&oh=00_AfD8fIdTIpvXTsaXMAYyXYCdY7u3C4n1fNmf8SW7OOFXDA&oe=6549BBF9"
+            class="card-img-top" alt="ganjang_pic">
+          <div class="card-body">
+            <h5 class="card-title fw-bold ">Take a bite of our juicy Ganjang Sandwich!</h5>
+            <p class="card-text text-secondary fw-bold">Savor the soy-glazed garlic chicken, kimchi slaw, and melted
+              Kim-cheese sauce in between toasted sandwich buns, plus a free side of fries!</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-3 mt-3">
+
+        <div class="card" style="width: 18rem;" data-aos="fade-down">
+          <img
+            src="https://scontent.fcrk1-3.fna.fbcdn.net/v/t39.30808-6/315220456_188843523658284_7090159637969999720_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFgqjBngC4kNCgk1j4BB2djsD2rPL26Um-wPas8vbpSb6-hywOpbqTPeDnUqoDsKCTpIfP_8oXpvj4oR7cLj3lz&_nc_ohc=e8dT89SxbUMAX8r8vDO&_nc_ht=scontent.fcrk1-3.fna&oh=00_AfBN6iwBLYiFtM_rrrsBsOnpvZW6ssdfjjM1-JSdUtKEqQ&oe=65490ED8"
+            class="card-img-top" alt="noodlespic">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-center">Celebrate the holidays with our fried noodles!</h5>
+            <small>
+              <p class="card-text fw-bold text-secondary text-center p-2">#KuyaKorea has 3 korean inspired flavors
+                that’s perfect to share with family and friends Try out our Japchae, Jajangmyeon, or Kimchi Fried
+                Noodles for only P299 Available in Grab. Food Panda. Pickaroo</p>
+            </small>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-sm-3 mt-3">
+
+        <div class="card" style="width: 18rem;" data-aos="fade-up">
+          <img
+            src="https://scontent.fcrk1-5.fna.fbcdn.net/v/t39.30808-6/348240802_192442926617989_6610240647692721056_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEQ7oTnJMkikorDKfDYGGt3p86duYYMalynzp25hgxqXEKUcbCj-3kXEsFP5I5ZXCFkfyBMYRRJtJY-mRhHVh9M&_nc_ohc=xyxqyk5cUQAAX_91vba&_nc_ht=scontent.fcrk1-5.fna&oh=00_AfBRpDx6OQB7QasqKpAFZw9rxdRF5W9Ik0nETm73M1TeUw&oe=6548C7DC"
+            class="card-img-top" alt="gochuwings_pic>
+          <div class=" card-body">
+          <h4 class="card-title text-center p-3 fw-bold mt-2">Can't get enough of our Gochu Wings? </h4>
+          <p class="card-text fw-bold text-secondary text-center p-2">Can't get enough of our Gochu Wings? We
+            understand, it's the perfect mix of sweet and spicy Order our meal option to get a dip and drink of your
+            choice! Price starts at P195 </p>
+        </div>
+      </div>
+
+      <div class="col-sm-3 mt-3">
+
+        <div class="card" style="width: 18rem;" data-aos="fade-down">
+          <img
+            src="https://scontent.fcrk1-4.fna.fbcdn.net/v/t39.30808-6/301653348_184457474045580_6366123813218682144_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFTDokq0GWS289WZCJS3XFSBfpV75KmvuQF-lXvkqa-5NJCE3-8vubmDaqUxPVc4KEExZCG0jlPk-cRLUIY4Ben&_nc_ohc=tbpOLFw5bKkAX9bsxds&_nc_ht=scontent.fcrk1-4.fna&oh=00_AfCMVZdHxonXeUrWv6fP7yOmZmQ7LKbhLtI5DKXxSTT_UA&oe=654B468B"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-text fw-bold">Bibimbap? More like Bibim-BOMB</h4>
+            <p class="card-text text-secondary fw-bold text-center p-2">Filled with Angus Beef, Mixed Vegetables, and
+              Gochujang you’re in for a healthy but delicious meal</p>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <div class="container-fluid bg-light">
+
+    <div class="row">
+
+      <div class="col-12-sm">
+        <h1 class="text-center text-dark text-uppercase fw-bold mt-5 pb-3" data-aos="fade-down">Must try!</h1>
+      </div>
+
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-sm-4 mt-3  " data-aos="zoom-in-right">
+        <div class="card shadow " style="width: 18rem;">
+          <img src="https://www.kuyakorea.com/cdn/shop/products/0006_BIBIMBAP_540x.jpg?v=1636976362"
+            class="card-img-top" alt="bibimbap_pic.">
+          <div class="card-body">
+            <h3 class="card-title text-center text-secondary text-uppercase">Bimbimbap</h3>
+            <hr>
+            <p class="card-text fw-bold text-center"> P255.00 </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-sm-4 mt-3 " data-aos="zoom-in-down">
+        <div class="card shadow" style="width: 18rem;">
+          <img src="https://www.kuyakorea.com/cdn/shop/products/0001_KKCHICKENSANDWICH3_720x.jpg?v=1667984090"
+            class="card-img-top" alt="Sandwhich_pic">
+          <div class="card-body">
+            <h4 class="card-title text-center text-secondary text-uppercase">Chikin Sandwhich</h4>
+            <hr>
+            <p class="card-text fw-bold text-center"> P255.00</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-sm-4 mt-3  ">
+        <div class="card shadow" style="width: 18rem;" data-aos="zoom-in-left">
+          <img
+            src="https://www.kuyakorea.com/cdn/shop/products/0000_WHOLE_K-BUFFALO_19c10c56-8ecc-4446-8311-576b6e59a2fd_540x.jpg?v=1665038070"
+            class="card-img-top" alt="boneless_pic.">
+          <div class="card-body">
+            <h3 class="card-title text-center text-secondary text-uppercase">Boneless</h3>
+            <hr>
+            <p class="card-text fw-bold text-center"> from P364.00</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-4 mt-3 pb-1 mb-3  d-none d-sm-block " data-aos="zoom-in-right">
+
+          <div class="card shadow" style="width: 18rem;">
+            <img src="https://www.kuyakorea.com/cdn/shop/products/3_540x.jpg?v=1677727471 class=" card-img-top"
+              alt="kimchifried_pic">
+            <div class="card-body">
+              <h5 class="card-title text-secondary text-center text-uppercase">Kimchi Fried Noodles</h5>
+              <hr>
+              <p class="card-text text-center fw-bold"> P300.00</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-4 mt-3 pb-1 mb-3 d-none d-sm-block" data-aos="zoom-in-down">
+
+          <div class="card shadow" style="width: 18rem;">
+            <img src="https://www.kuyakorea.com/cdn/shop/products/0005__NOODLES_Jajangmeyon_540x.jpg?v=1667983650"
+              class="card-img-top" alt="Jangjangmeyon_noodles">
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-secondary text-uppercase text-center">Jajangmeyon Noodles</h5>
+              <hr>
+              <p class="card-text fw-bold text-center"> P300.00</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-4 mt-3 mb-3 pb-1  d-none d-sm-block" data-aos="zoom-in-left">
+
+          <div class="card shadow" style="width: 18rem;">
+            <img
+              src="https://www.kuyakorea.com/cdn/shop/products/0001_WHOLE_GOCHU_5ac9b0ce-5d3b-41be-810e-5c83bb3bc682_540x.jpg?v=1665038097"
+              class="card-img-top" alt="Wings_pic">
+            <div class="card-body">
+              <h4 class="card-title text-secondary text-center text-uppercase"> Wings</h4>
+              <hr>
+              <p class="card-text text-center fw-bold"> P249.00</p>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+  </div>
+
+
+</section>
+
+<!--End of Section-->
+
+<!--Section-->
+
+
+<section>
+
+  <div class="container-fluid">
+
+
+    <div class="row">
+      <div class="col-12-sm" data-aos="zoom-in">
+        <h1 class="text-white text-uppercase fw-bold text-center mt-3 mb-2">Kkb</h1>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12-sm david_picture d-none d-sm-block"data-aos="zoom-out-down">
+        <img
+          src="https://scontent.fcrk1-4.fna.fbcdn.net/v/t39.30808-6/361266540_291066340102668_3612449563459559352_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEM8C0LzeGHyRLuYJaWnJpIheCLXyg2dCWF4ItfKDZ0JYHQv5vibItRYmIyw87-bLO53cGIA6ni_4T3_U7PLy2K&_nc_ohc=a1h1E-N5XJIAX-Jus3x&_nc_ht=scontent.fcrk1-4.fna&oh=00_AfA0ZZiQ61G5x5yu-axFC1we7mrIz-6_MvApeu5hLbmOIw&oe=654354FC"
+          class="img-thumbnail " alt="Owner_picture">
+        <p class="text-white text-center fw-bold mt-2">David Licauco <br> Owner</p>
+      </div>
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-sm-12" data-aos="fade-up" data-aos-duration="3000">
+
+        <p class="text-light text-center mb-3">Our <b>SULIT, SARAP, and SATISFYING </b> meals are available through
+          dine-in at our <br> <b> UP Town Center Branch from 10am - 10pm</b> , or through delivery via <b> Grab,
+            Foodpanda, <br> </b>and <b> Pickaroo K-food mukbang</b>, g?
+        </p>
+
+      </div>
+
+
+
+    </div>
+
+
+    <div class="row">
+    <div class="col-sm-6"data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+     
+      <h1 class="text-light text-center text-uppercase mt-4">WE are here to serve you</h1>
+      <p class="text-light mt-2 text-center">Just look at how 𝙨𝙪𝙡𝙞𝙩, 𝙨𝙖𝙧𝙖𝙥 𝙖𝙣𝙙 𝙨𝙖𝙩𝙞𝙨𝙛𝙮𝙞𝙣𝙜 Kuya Korea’s bowls are! 🙌🏻
+
+        Front and center is our Pork Samgyup bowl with thinly sliced pork belly, egg in the middle, and our homemade kimchi fried rice. 🤤 Order now!</p>
+  
+
+
+    </div>
+    
+    <div class="col-sm-6" data-aos="zoom-in-left">
+      <h1 class="text-light text-center text-uppercase mt-4">Delicious Kuya Korea</h1>
+      <p class="text-light mt-2 text-center"> Check out our version of K-Pop 💥 Big and boneless cuts of chicken, covered with our unique Korean sauce and served with our kimchi rice. Yum!</p>
+    </div>
+
+    </div>
+
+
+
+
+    <div class="row">
+      <div class="col-sm-3 mt-4 mb-3">
+
+        <div class="card" style="width: 18rem;" data-aos="zoom-in-right">
+          <img
+            src="https://scontent.fcrk1-2.fna.fbcdn.net/v/t39.30808-6/315389882_189325603610076_7236304420961070248_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEVWCeFsqNgugIukYKVnqGiGfzlrRJd1MEZ_OWtEl3UwatJjNTYn0zMyw6nmacKsheRkrgTZIVXO0Rrb-ZUrnGR&_nc_ohc=0Qka_0Azd_MAX_VOSSQ&_nc_ht=scontent.fcrk1-2.fna&oh=00_AfBC3NGNn8_HMfTDq0SYmMsYj8lg4vSgu7eDWT-rXpCXcg&oe=654323B3"
+            class="card-img-top" alt="KKb_pic1">
+
+        </div>
+      </div>
+
+      <div class="col-sm-3 mt-4 mb-3">
+
+        <div class="card" style="width: 18rem;" data-aos="zoom-in-left">
+          <img
+            src="https://scontent.fcrk1-2.fna.fbcdn.net/v/t39.30808-6/315431979_189325703610066_585937216073724788_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHNFVJlMCwt-sWYaTQcHZt0V--Dw1aVu_VX74PDVpW79UyjGN30jqrUNuoStXwC5h64z3TNRrqGL_k4yoVqKrXJ&_nc_ohc=BpfefDOqGzkAX9DZrID&_nc_ht=scontent.fcrk1-2.fna&oh=00_AfAHQk9WTb9OCSryhlSBBnyKg2nnYzqSAbHDj8fp1rGdKg&oe=65438C6A"
+            class="card-img-top" alt="Kkb_pic2">
+
+        </div>
+      </div>
+
+      <div class="col-sm-3 mt-4 d-none d-sm-block mb-3"data-aos="zoom-in-right">
+
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://scontent.fcrk1-1.fna.fbcdn.net/v/t39.30808-6/315522557_189325773610059_3010590746436654935_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEL8PNlkpnN325geEvc-qoGWkm0MNwoFqhaSbQw3CgWqPToXgVelljH-Ixa7izKN9kgDQ3TmnNygb2mulgS8zzi&_nc_ohc=23Dy70_PxwoAX-HLMRw&_nc_oc=AQlh9LYIm1Y45iaeoW-taN3SiP7Y1Mn75-xE6Cv0bHFIL0poQiaEIZH96n7oEEXTpro&_nc_ht=scontent.fcrk1-1.fna&oh=00_AfCIUkwHp67ILuH9WVd52WKrAZNdjflK1-Fh3wdN9Nx_Cw&oe=6543245A"
+            class="card-img-top" alt="Kkb_pic3">
+
+        </div>
+      </div>
+
+      <div class="col-sm-3 mt-4 d-none d-sm-block  mb-3">
+
+        <div class="card" style="width: 18rem;" data-aos="zoom-in-left">
+          <img
+            src="https://scontent.fcrk1-3.fna.fbcdn.net/v/t39.30808-6/315427049_189325633610073_1066009624791137003_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGq1Q9-C8nUEPLAvaMUETLczZAfCvFZbXbNkB8K8VltdgqF9XXT-AzZ1WCOUXEOGrCHnxK1i7hQ6Gz-OYU2k8EU&_nc_ohc=kYp5cWtrT1cAX9uYZsQ&_nc_ht=scontent.fcrk1-3.fna&oh=00_AfCYWAGKrUK22Bhwes_4BFgnZXJs75P7ukmtsYo6B70Rvw&oe=6543DF67"
+            class="card-img-top" alt="KKb_pic4">
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+  <!--End of Section-->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--Footer section-->
+  <div class="container-fluid bg-dark d-none d-sm-block">
+    <div class="row">
+      <div class="col-sm-12 ">
+        <footer class="text-center text-white">
+          <p>Base404 <br> @Daviddev320</p>
+
+        </footer>
+      </div>
+    </div>
+
+  </div>
+
+  <!--End of footer section-->
+
+  </body>
+
+  <!--Link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!--end fof link-->
+
+  </html>
